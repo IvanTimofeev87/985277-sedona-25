@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Ivan Timofeev](https://up.htmlacademy.ru/htmlcss/25/user/985277).
-* Наставник: `Неизвестно`.
+* Наставник: [Алексей Вечканов](https://htmlacademy.ru/profile/id902303).
 
 ---
 
