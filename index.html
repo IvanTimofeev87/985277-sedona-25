@@ -36,7 +36,28 @@
       <section class="hotels-search">
         <p>Заинтересовались?</p>
         <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
-        <!-- Тут будет форма поиска отелей-->
+        <h2 class="search-date-heading">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</h2>        
+        <form class="hotels-search-date-form" action="#" method="POST">
+          <p class="appointment-check-in">
+            <label for="check-in">ДАТА ЗАЕЗДА: </label>
+            <input type="text" id="check-in" name="check-in-date" placeholder="24 АПРЕЛЯ 2017">
+          </p>
+          <p class="appointment-check-out">
+            <label for="check-out">ДАТА ВЫЕЗДА: </label>
+            <input type="text" id="check-out" name="check-out-date" placeholder="4 ИЮЛЯ 2017">
+          </p>
+          <p class="appointment-guests">
+            <label for="adult">ВЗРОСЫЛЕ: </label>
+            <input type="button" name="minus" value="-">
+            <input id="amount" type="text" value="1"/>
+            <input type="button" name="plus" value="+">
+            <label for="adult">ДЕТИ: </label>
+            <input type="button" name="minus" value="-">
+            <input id="amount" type="text" value="1"/>
+            <input type="button" name="plus" value="+">
+          </p>
+          <input type="submit" value="НАЙТИ">
+        </form>
       </section> 
     </main>
     <footer class="main-footer">
