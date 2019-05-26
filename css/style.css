@@ -18,7 +18,7 @@ a {
     background-color: #ffffff;     
 }
 
-.main-navigation,
+.navigation,
 .appointment-guests,
 .appointment-check-in,
 .appointment-check-out {
@@ -62,8 +62,9 @@ a {
 }
 
 .slogan,
-.search-date-heading
-.find-button {
+.search-button,
+.find-button,
+.сatalog-hotel-name {
     font-size: 21px;
     font-family: "PT Sans";
     font-weight: 700;
@@ -94,7 +95,10 @@ a {
     text-align: center;   
 }
 
-.search-paragraph {
+.search-paragraph,
+.hotel-price-from,
+.catalog-hotel-type,
+.catalog-hotel-price a {
     font-size: 14px;
     font-family: "PT Sans";
     font-weight: 400px;
@@ -104,14 +108,64 @@ a {
     text-align: center;
 }
 
-.search-date-heading {
+.hotel-price-from,
+.catalog-hotel-type {
+    line-height: 21px;
+}
+
+.search-button {
     color: #ffffff;
     background-color: #766357;
     width: 568px;
     height: 86px;
 }
 
-.find-button {
+.blue-button {
     color: #ffffff;
     background-color: #81b3d2;
 }
+
+.brown-button {
+    color: #ffffff;
+    background-color: #766357; 
+}
+
+.find-button {
+    width: 568px;
+    height: 58px;
+}
+
+.brown-button:hover {
+    background-color: #604e43; 
+}
+
+.brown-button:focus {
+    background-color: #503e33;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.blue-button:hover {
+    background-color: #669ec0; 
+}
+
+.blue-button:focus {
+    background-color:#5496bd;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.check-in-date:hover,
+.check-out-date:hover {
+    background-color: #ebebeb; 
+}
+
+.check-in-date:focus,
+.check-out-date:focus {
+    background-color: #ffffff; 
+}
+
+.check-in-date,
+.check-out-date {
+    background-color: #f2f2f2; 
+}
+
+

@@ -10,8 +10,8 @@
   <body>
     <div class="main-container">
     <header class="main-header">
-      <nav class="main-navigation">
-        <a class="main-header-logo" href="index.html">
+      <nav class="navigation">
+        <a class="header-logo" href="index.html">
             <img src="img/logo-sedona.svg" width="140" height="71" alt="Логотип сайта города Седона">
         </a>
         <ul class="navigation-list">
@@ -46,15 +46,15 @@
       <section class="hotels-search">
         <span class="question">Заинтересовались?</span>
         <p class="search-paragraph">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
-        <h2 class="search-date-heading" aligh="center">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</h2>        
+        <a class="button brown-button search-button" href="#">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</a>        
         <form class="hotels-search-date-form" action="#" method="POST">
           <p class="appointment-check-in">
             <label for="check-in">ДАТА ЗАЕЗДА: </label>
-            <input type="text" id="check-in" name="check-in-date" placeholder="24 АПРЕЛЯ 2017">
+            <input type="text" id="check-in" class="check-in-date" name="check-in-date" placeholder="24 АПРЕЛЯ 2017">
           </p>
           <p class="appointment-check-out">
             <label for="check-out">ДАТА ВЫЕЗДА: </label>
-            <input type="text" id="check-out" name="check-out-date" placeholder="4 ИЮЛЯ 2017">
+            <input type="text" id="check-out" class="check-out-date" name="check-out-date" placeholder="4 ИЮЛЯ 2017">
           </p>
           <p class="appointment-guests">
             <label for="adult">ВЗРОСЛЫЕ: </label>
@@ -66,7 +66,7 @@
             <input id="amount" type="text" value="1"/>
             <button class="button" type="button" name="plus">+</button>
           </p>
-          <button class="button find-button" type="submit">НАЙТИ</button>
+          <button class="button blue-button find-button" type="submit">НАЙТИ</button>
         </form>
       </section> 
     </main>
