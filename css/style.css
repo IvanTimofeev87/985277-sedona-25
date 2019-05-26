@@ -4,16 +4,49 @@ body {
     background-color: #f2f2f2;
 }
 
-.main-container {
-    width: 1200px;
-    margin: 0 auto;    
+a {
+    text-decoration: none;
+  }
+
+.visually-hidden {
+    display: none
 }
 
-nav {
+.main-container {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #ffffff;     
+}
+
+.main-navigation,
+.appointment-guests,
+.appointment-check-in,
+.appointment-check-out {
     font-size: 14px;
     font-family: "PT Sans";
     font-weight: 700;
     color: black;
+    line-height: 26px;
+    text-transform: uppercase;
+    background-color: #ffffff;
+}
+
+.social-list,
+.navigation-list,
+.catalog-list {
+    list-style: none;
+}
+
+.navigation-list a {
+    color: black; 
+}
+
+.navigation-list a:hover {
+    color:#81b3d2;
+}
+
+.navigation-list a:focus {
+    color:rgba(0, 0, 0, 0.3);
 }
 
 .main-screen {
@@ -28,11 +61,57 @@ nav {
     margin: 0 auto; 
 }
 
-.under-welcome {
-    position:absolute;
-    bottom:0;
+.slogan,
+.search-date-heading
+.find-button {
+    font-size: 21px;
+    font-family: "PT Sans";
+    font-weight: 700;
+    color: black;
+    line-height: 26px;
+    text-transform: uppercase;
+    text-align: center;
+    /* outline: 1px red solid; */   
 }
 
-.visually-hidden {
-    display: none
+.five-reasons {
+    font-size: 14px;
+    font-family: "PT Sans";
+    font-weight: 400px;
+    color: #333333;
+    line-height: 26px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.question {
+    font-size: 30px;
+    font-family: "PT Sans";
+    font-weight: 700;
+    color: black;
+    line-height: 36px;
+    text-transform: uppercase;
+    text-align: center;   
+}
+
+.search-paragraph {
+    font-size: 14px;
+    font-family: "PT Sans";
+    font-weight: 400px;
+    color: #333333;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.search-date-heading {
+    color: #ffffff;
+    background-color: #766357;
+    width: 568px;
+    height: 86px;
+}
+
+.find-button {
+    color: #ffffff;
+    background-color: #81b3d2;
 }
