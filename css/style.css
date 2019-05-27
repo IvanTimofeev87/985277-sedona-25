@@ -57,12 +57,18 @@ a {
     background-image: url("../img/main-background-photo.jpg");
     background-position: top center;
     background-repeat: no-repeat;
-    height: 509px;    
+    height: 509px;
+    position: relative;    
 }
 
 .welcome-text {
     display: block;
     margin: 0 auto; 
+}
+
+.under-welcome {
+position: absolute;
+bottom: 0;
 }
 
 .slogan,
