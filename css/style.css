@@ -1,3 +1,7 @@
+html {
+    font-family: "PT Sans";
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -23,7 +27,6 @@ a {
 .appointment-check-in,
 .appointment-check-out {
     font-size: 14px;
-    font-family: "PT Sans";
     font-weight: 700;
     color: black;
     line-height: 26px;
@@ -66,7 +69,6 @@ a {
 .find-button,
 .сatalog-hotel-name {
     font-size: 21px;
-    font-family: "PT Sans";
     font-weight: 700;
     color: black;
     line-height: 26px;
@@ -77,7 +79,6 @@ a {
 
 .five-reasons {
     font-size: 14px;
-    font-family: "PT Sans";
     font-weight: 400px;
     color: #333333;
     line-height: 26px;
@@ -87,7 +88,6 @@ a {
 
 .question {
     font-size: 30px;
-    font-family: "PT Sans";
     font-weight: 700;
     color: black;
     line-height: 36px;
@@ -100,7 +100,6 @@ a {
 .catalog-hotel-type,
 .catalog-hotel-price a {
     font-size: 14px;
-    font-family: "PT Sans";
     font-weight: 400px;
     color: #333333;
     line-height: 24px;
