@@ -67,8 +67,8 @@ a {
 }
 
 .under-welcome {
-position: absolute;
-bottom: 0;
+    position: absolute;
+    bottom: 0;
 }
 
 .slogan,
@@ -107,7 +107,7 @@ bottom: 0;
 .catalog-hotel-type,
 .catalog-hotel-price a {
     font-size: 14px;
-    font-weight: 400px;
+    font-weight: 400;
     color: #333333;
     line-height: 24px;
     text-transform: uppercase;
