@@ -2,9 +2,9 @@ html {
     font-family: "PT Sans";
 }
 
-* {
+/** {
     outline: 1px solid red
-}
+}*/
  
 body {
     margin: 0;
@@ -41,12 +41,33 @@ a {
 
 .social-list,
 .navigation-list,
-.catalog-list {
+.catalog-list,
+.header-logo a {
     list-style: none;
 }
 
+.navigation-list {
+    height: 56px;
+    width: 1200px;
+    display: flex;
+    flex-grow: 1;
+    padding: 0;
+    margin: 0;
+}
+
+.header-logo  {
+    position: absolute;
+    display: block;
+    margin-left: 530px;
+}
+.navigation-list li:nth-child(2) {
+    margin-right: 244px;    
+}
+
+
 .navigation-list a {
-    color: black; 
+    color: black;
+    text-align: center; 
 }
 
 .navigation-list a:hover {
@@ -57,16 +78,11 @@ a {
     color:rgba(0, 0, 0, 0.3);
 }
 
-.navigation-list {
-    min-height: 40px;
-}
-.navigation {
+.navigation-list li {
+    width: 239px;
+    justify-content: center;
+    align-items: center;
     display: flex;
-}
-
-.header-logo {
-    width: 140px;
-    height: 71px;
 }
 
 .main-screen {
@@ -74,17 +90,19 @@ a {
     background-position: top center;
     background-repeat: no-repeat;
     height: 509px;
-    position: relative;    
 }
 
 .welcome-text {
     display: block;
-    margin: 0 auto; 
+    padding-top: 98px;
+    padding-left: 380px;
 }
 
 .under-welcome {
-    position: absolute;
-    bottom: 0;
+    /*position: absolute;*/
+    /*bottom: 0;*/
+    display: block;
+    padding: 0;
 }
 
 .slogan,
@@ -110,6 +128,7 @@ a {
 }
 
 .question {
+    display: block;
     font-size: 30px;
     font-weight: 700;
     color: black;
