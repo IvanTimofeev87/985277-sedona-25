@@ -2,9 +2,9 @@ html {
     font-family: "PT Sans";
 }
 
-/** {
+* {
     outline: 1px solid red
-}*/
+}
  
 body {
     margin: 0;
@@ -45,6 +45,7 @@ a {
 .header-logo a {
     list-style: none;
 }
+
 
 .navigation-list {
     height: 56px;
@@ -209,4 +210,15 @@ a {
     background-color: #f2f2f2; 
 }
 
+.footer {
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
+.social-list {
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
