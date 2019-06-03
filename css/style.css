@@ -138,6 +138,16 @@ a {
     text-align: center;   
 }
 
+.hotels-search-date-form {
+    display: flex;
+    flex-direction: column;
+    height: 395px;
+    margin-left: 316px;
+    margin-right: 316px;
+    margin-bottom: 78px;
+    padding: 56px;
+    justify-content: space-around;
+}
 .search-paragraph,
 .hotel-price-from,
 .catalog-hotel-type,
@@ -154,12 +164,26 @@ a {
 .catalog-hotel-type {
     line-height: 21px;
 }
+.appointment-guests {
+    display: flex;
+    width: 458px;  
+}
 
+.search-button-paragraph {
+    display: block;
+    margin-left: 316px;
+    margin-right: 316px;
+    margin-top: 54px;
+}
 .search-button {
     color: #ffffff;
     background-color: #766357;
     width: 568px;
     height: 86px;
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
 }
 
 .blue-button {
@@ -173,7 +197,6 @@ a {
 }
 
 .find-button {
-    width: 568px;
     height: 58px;
 }
 
@@ -209,6 +232,15 @@ a {
 .check-out-date {
     background-color: #f2f2f2; 
 }
+.catalog-list {
+    padding: 0;
+}
+
+/*.catalog-item {
+    border-bottom: 2px solid #e5e5e5;
+    padding: 0;
+    height: 120px;
+}*/
 
 .footer {
     height: 120px;
