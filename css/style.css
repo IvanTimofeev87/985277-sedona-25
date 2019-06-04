@@ -141,13 +141,13 @@ a {
 .hotels-search-date-form {
     display: flex;
     flex-direction: column;
-    height: 395px;
+    max-height:  395px;
     margin-left: 316px;
     margin-right: 316px;
     margin-bottom: 78px;
-    padding: 56px;
-    justify-content: space-around;
+    /*padding: 56px;*/
 }
+
 .search-paragraph,
 .hotel-price-from,
 .catalog-hotel-type,
@@ -186,6 +186,36 @@ a {
     justify-content: center;    
 }
 
+.appointment-check-in {
+    margin-top: 54px;
+}
+
+.appointment-check-out {
+    margin-top: 28px;
+}
+
+.appointment-guests {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 458px; 
+    flex-grow: 4;
+}
+
+.appointment-guests input {
+    width: 114px;
+}
+
+.appointment-check-in input,
+.appointment-check-out input {
+    width: 346px;
+}
+
+.appointment-check-in label,
+.appointment-check-out label {
+   margin-right: 20px;
+}
+
 .blue-button {
     color: #ffffff;
     background-color: #81b3d2;
@@ -198,6 +228,16 @@ a {
 
 .find-button {
     height: 58px;
+    margin-top: 54px;
+    margin-bottom: 54px;
+}
+
+.appointment-check-in,
+.appointment-check-out,
+.appointment-guests,
+.find-button {
+    margin-left: 54px;
+    margin-right: 54px;
 }
 
 .brown-button:hover {
