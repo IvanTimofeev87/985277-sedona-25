@@ -277,7 +277,17 @@ a {
 .catalog-list {
     padding: 0;
 }
+.catalog-item {
+    display: flex;
+    
+}
 
+.catalog-hotel-price {
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+    align-content: flex-end;
+}
 /*.catalog-item {
     border-bottom: 2px solid #e5e5e5;
     padding: 0;
