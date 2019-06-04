@@ -45,20 +45,20 @@
       </section>
       <section class="hotels-search">
         <span class="question">Заинтересовались?</span>
-        <p class="search-paragraph">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
-          <span class="search-button-paragraph">
-            <a class="button brown-button search-button" href="#">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</a>
-          </span>        
-        <form class="hotels-search-date-form" action="#" method="POST">
-          <p class="appointment-check-in">
+        <p class="search-paragraph">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p> 
+        <div class="search-button-div">
+            <a class="button brown-button search-button" href="#">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</a>  
+        </div>   
+        <form class="hotels-search-date-form" action="#" method="POST">  
+          <div class="appointment-check-in">
             <label for="check-in">ДАТА ЗАЕЗДА: </label>
             <input type="text" id="check-in" class="check-in-date" name="check-in-date" placeholder="24 АПРЕЛЯ 2017">
-          </p>
-          <p class="appointment-check-out">
+          </div>
+          <div class="appointment-check-out">
             <label for="check-out">ДАТА ВЫЕЗДА: </label>
             <input type="text" id="check-out" class="check-out-date" name="check-out-date" placeholder="4 ИЮЛЯ 2017">
-          </p>
-          <p class="appointment-guests">
+          </div>
+          <div class="appointment-guests">
             <label for="adult">ВЗРОСЛЫЕ: </label>
             <button class="button" type="button" name="minus">-</button>
             <input id="amount" type="text" value="1"/>
@@ -67,12 +67,14 @@
             <button class="button" type="button" name="minus">-</button>
             <input id="amount" type="text" value="1"/>
             <button class="button" type="button" name="plus">+</button>
-          </p>
-          <button class="button blue-button find-button" type="submit">НАЙТИ</button>
+          </div>
+          <div>
+              <button class="button blue-button find-button" type="submit">НАЙТИ</button>
+          </div>  
         </form>
       </section> 
     </main>
-    <footer class="footer">
+    <footer class="main-footer">
       <div class="footer-hashtag">
         <span class="hashtag" href="index.html">#VISITSEDONA</span>
       </div>

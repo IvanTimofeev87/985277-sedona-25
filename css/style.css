@@ -139,15 +139,26 @@ a {
 }
 
 .hotels-search-date-form {
-    display: flex;
+    /*display: flex;
     flex-direction: column;
     max-height:  395px;
     margin-left: 316px;
     margin-right: 316px;
-    margin-bottom: 78px;
-    /*padding: 56px;*/
+    margin-bottom: 78px;*/
+    padding: 56px;
+    background-color: #ffffff;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
+.hotels-search-date-form div {
+    width: 458px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .search-paragraph,
 .hotel-price-from,
 .catalog-hotel-type,
@@ -174,49 +185,21 @@ a {
     margin-left: 316px;
     margin-right: 316px;
     margin-top: 54px;
+    padding: 50%;
 }
+
 .search-button {
     color: #ffffff;
     background-color: #766357;
     width: 568px;
     height: 86px;
     display: flex;
-    display: flex;
     align-items: center;
-    justify-content: center;    
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.appointment-check-in {
-    margin-top: 54px;
-}
-
-.appointment-check-out {
-    margin-top: 28px;
-}
-
-.appointment-guests {
-    margin-top: 30px;
-    display: flex;
-    justify-content: space-between;
-    width: 458px; 
-    flex-grow: 4;
-}
-
-.appointment-guests input {
-    width: 114px;
-}
-
-/* ставлю фиксированную ширину*/
-.appointment-check-in input,
-.appointment-check-out input {
-    width: 346px;
-}
-
-/* ставлю отступы*/
-.appointment-check-in label,
-.appointment-check-out label {
-   margin-right: 20px;
-}
 
 .blue-button {
     color: #ffffff;
@@ -228,19 +211,6 @@ a {
     background-color: #766357; 
 }
 
-.find-button {
-    height: 58px;
-    margin-top: 54px;
-    margin-bottom: 54px;
-}
-
-.appointment-check-in,
-.appointment-check-out,
-.appointment-guests,
-.find-button {
-    margin-left: 54px;
-    margin-right: 54px;
-}
 
 .brown-button:hover {
     background-color: #604e43; 
