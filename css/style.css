@@ -206,11 +206,13 @@ a {
     width: 114px;
 }
 
+/* ставлю фиксированную ширину*/
 .appointment-check-in input,
 .appointment-check-out input {
     width: 346px;
 }
 
+/* ставлю отступы*/
 .appointment-check-in label,
 .appointment-check-out label {
    margin-right: 20px;
