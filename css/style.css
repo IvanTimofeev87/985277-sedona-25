@@ -28,9 +28,8 @@ a {
 }
 
 .navigation,
-.appointment-guests,
-.appointment-check-in,
-.appointment-check-out {
+.row,
+.row-button {
     font-size: 14px;
     font-weight: 700;
     color: black;
@@ -100,8 +99,6 @@ a {
 }
 
 .under-welcome {
-    /*position: absolute;*/
-    /*bottom: 0;*/
     display: block;
     padding: 0;
 }
@@ -115,8 +112,7 @@ a {
     color: black;
     line-height: 26px;
     text-transform: uppercase;
-    text-align: center;
-    /* outline: 1px red solid; */   
+    text-align: center;  
 }
 
 .five-reasons {
@@ -139,26 +135,46 @@ a {
 }
 
 .hotels-search-date-form {
-    /*display: flex;
-    flex-direction: column;
-    max-height:  395px;
-    margin-left: 316px;
-    margin-right: 316px;
-    margin-bottom: 78px;*/
-    padding: 56px;
-    background-color: #ffffff;
     position: fixed;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    padding: 56px;
+    background-color: #ffffff;
 }
 
-.hotels-search-date-form div {
+.row,
+.row-button {
     width: 458px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
+.row + .row {
+    margin-top: 30px;
+}
+
+.find-button {
+    border: none;
+    width: 100%;
+    padding: 22px 196px;
+}
+
+.row-button {
+    margin-top: 54px;
+}
+
+input {
+    width: 100%;
+    border: none;
+    box-sizing: border-box;
+}
+
+.input-wrap {
+    width: 260px;
+    position: relative;
+  }
 .search-paragraph,
 .hotel-price-from,
 .catalog-hotel-type,
@@ -175,29 +191,20 @@ a {
 .catalog-hotel-type {
     line-height: 21px;
 }
-.appointment-guests {
-    display: flex;
-    width: 458px;  
-}
 
-.search-button-paragraph {
-    display: block;
-    margin-left: 316px;
-    margin-right: 316px;
-    margin-top: 54px;
-    padding: 50%;
+
+.search-button-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .search-button {
-    color: #ffffff;
-    background-color: #766357;
     width: 568px;
     height: 86px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 
@@ -210,7 +217,6 @@ a {
     color: #ffffff;
     background-color: #766357; 
 }
-
 
 .brown-button:hover {
     background-color: #604e43; 
@@ -258,6 +264,7 @@ a {
     width: 260px;
     align-content: flex-end;
 }
+
 /*.catalog-item {
     border-bottom: 2px solid #e5e5e5;
     padding: 0;
