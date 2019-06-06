@@ -167,6 +167,7 @@ a {
 
 .row-age {
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }   
 input {
