@@ -151,9 +151,9 @@ a {
     justify-content: space-between;
 }
 
-.row + .row {
+/*.row + .row {
     margin-top: 30px;
-}
+}*/
 
 .find-button {
     border: none;
@@ -165,6 +165,10 @@ a {
     margin-top: 54px;
 }
 
+.row-age {
+    display: flex;
+    justify-content: space-between;
+}   
 input {
     width: 100%;
     border: none;
@@ -174,7 +178,8 @@ input {
 .input-wrap {
     width: 260px;
     position: relative;
-  }
+}
+
 .search-paragraph,
 .hotel-price-from,
 .catalog-hotel-type,
