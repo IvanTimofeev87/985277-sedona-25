@@ -203,7 +203,8 @@ a {
     color: black;
     line-height: 36px;
     text-transform: uppercase;
-    text-align: center;   
+    text-align: center;
+    margin-top: 56px;   
 }
 
 .hotels-search-date-form {
@@ -296,6 +297,9 @@ input {
     padding: 22px 196px;
 }
 
+.search-paragraph {
+margin-bottom: 52px;
+}
 .search-paragraph,
 .hotel-price-from,
 .catalog-hotel-type,
@@ -349,7 +353,8 @@ input {
 }
 
 .blue-button:hover,
-.blue {
+.blue,
+.social-img {
     background-color: #669ec0; 
 }
 
@@ -388,7 +393,7 @@ input {
 }
 
 .footer {
-    height: 120px;
+    min-height: 120px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -398,4 +403,12 @@ input {
     padding: 0;
     display: flex;
     justify-content: space-around;
+}
+
+.social-list li {
+    flex-grow: 1;
+}
+.social-img {
+    widows: 46px;
+    height: 46px;
 }
