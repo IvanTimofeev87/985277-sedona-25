@@ -353,8 +353,8 @@ margin-bottom: 52px;
 }
 
 .blue-button:hover,
-.blue,
-.social-img {
+.blue, 
+.social-list li {
     background-color: #669ec0; 
 }
 
@@ -399,16 +399,23 @@ margin-bottom: 52px;
     align-items: center;
 }
 
+.footer-social {
+    width: 150px;
+}
+
 .social-list {
-    padding: 0;
     display: flex;
-    justify-content: space-around;
+	padding: 0px;
+	margin: 0px;
+	justify-content: space-between;
 }
 
 .social-list li {
-    flex-grow: 1;
-}
-.social-img {
-    widows: 46px;
+    width: 46px;
     height: 46px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
+
+
