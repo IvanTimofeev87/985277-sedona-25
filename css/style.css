@@ -393,6 +393,7 @@ margin-bottom: 52px;
 }
 
 .footer {
+    width: 1200px;
     min-height: 120px;
     display: flex;
     justify-content: space-around;
