@@ -32,12 +32,10 @@
     </header>
     <main>
       <div class="main-screen">
-          <img class="welcome-text" src="img/welcome.png" width="459" height="353" alt="Приветствие">
-          <img class="under-welcome" src="img/under-welcome.png" width="1201" height="59">
+        <img class="welcome-text" src="img/welcome.png" width="459" height="353" alt="Приветствие">
+        <img class="under-welcome" src="img/under-welcome.png" width="1201" height="59">
       </div>
       <h1 class="visually-hidden">Сайт города Седона</h1>
-      <section class="front-main">
-      </section>
       <p class="slogan">Седона — небольшой городок в Аризоне, заслуживающий большего!</p>
       <section class="advantage">
           <h2 class="five-reasons">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</h2>
@@ -93,51 +91,49 @@
             </p>
           </div>
       </section>
-        <span class="question">Заинтересовались?</span>
-        <p class="search-paragraph">Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в седоне</p> 
-        <div class="search-button-div">
-            <a class="button brown-button search-button" href="#">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</a>  
-        </div> 
-        <form class="hotels-search-date-form visually-hidden" action="#" method="POST">  
-          <div class="row">
-            <label for="check-in" class="label">ДАТА ЗАЕЗДА: </label>
-            <div class="input-wrap">
-              <input type="text" id="check-in" class="check-in-date" name="check-in-date" placeholder="  24 АПРЕЛЯ 2017">
+      <span class="question">Заинтересовались?</span>
+      <p class="search-paragraph">Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в седоне</p> 
+      <div class="search-button-div">
+          <a class="button brown-button search-button" href="#">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</a>  
+      </div> 
+      <form class="hotels-search-date-form visually-hidden" action="#" method="POST">  
+        <div class="row">
+          <label for="check-in" class="label">ДАТА ЗАЕЗДА: </label>
+          <div class="input-wrap">
+            <input type="text" id="check-in" class="check-in-date" name="check-in-date" placeholder="  24 АПРЕЛЯ 2017">
+          </div>
+        </div>
+        <div class="row">
+          <label for="check-out" class="label">ДАТА ВЫЕЗДА: </label>
+          <div class="input-wrap">
+            <input type="text" id="check-out" class="check-out-date" name="check-out-date" placeholder="  4 ИЮЛЯ 2017">
+          </div>
+        </div>
+        <div class="row">
+          <div class="cell-calc">
+            <div class="label-calc adult">
+              <label for="adult">ВЗРОСЛЫЕ: </label>
+            </div>
+            <div class="input-calc">
+              <button class="button cube" type="button" name="minus">-</button>
+              <input class="cube" id="amount" type="text" value="1"/>
+              <button class="button cube" type="button" name="plus">+</button>
             </div>
           </div>
-          <div class="row">
-            <label for="check-out" class="label">ДАТА ВЫЕЗДА: </label>
-            <div class="input-wrap">
-              <input type="text" id="check-out" class="check-out-date" name="check-out-date" placeholder="  4 ИЮЛЯ 2017">
+          <div class="cell-calc">
+            <div class="label-calc children">
+              <label for="children">ДЕТИ: </label>
             </div>
-          </div>
-          <div class="row">
-            <div class="cell-calc">
-              <div class="label-calc adult">
-                <label for="adult">ВЗРОСЛЫЕ: </label>
-              </div>
-              <div class="input-calc">
+            <div class="input-calc">
                 <button class="button cube" type="button" name="minus">-</button>
-                <input class="cube" id="amount" type="text" value="1"/>
+                <input class="cube"id="amount" type="text" value="1"/>
                 <button class="button cube" type="button" name="plus">+</button>
-              </div>
-            </div>
-            <div class="cell-calc">
-                <div class="label-calc children">
-                  <label for="children">ДЕТИ: </label>
-                </div>
-                <div class="input-calc">
-                  <button class="button cube" type="button" name="minus">-</button>
-                  <input class="cube"id="amount" type="text" value="1"/>
-                  <button class="button cube" type="button" name="plus">+</button>
-                </div>
             </div>
           </div>
-            <div class="row">
-              <button class="button blue-button find-button" type="submit">НАЙТИ</button>
-            </div>
-          </div>  
-        </form>
+        <div class="row">
+          <button class="button blue-button find-button" type="submit">НАЙТИ</button>
+        </div> 
+      </form>
     </main>
     <footer class="footer">
       <div class="footer-hashtag">
@@ -168,7 +164,7 @@
           <img src="img/logo-htmlacademy.svg" width="115" height="41" alt="Логотип HTML Academy">
         </a>
       </div>   
-    </footer>
+      </footer>
   </div>
-</body>
+  </body>
 </html>
