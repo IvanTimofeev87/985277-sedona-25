@@ -14,6 +14,10 @@ body {
     background-color: #ffffff;
 }
 
+h3 {
+    margin: 0;
+}
+
 a {
     text-decoration: none;
   }
@@ -347,6 +351,7 @@ margin-bottom: 52px;
 }
 
 /* стили наведения и бекграунда*/
+
 .blue-button {
     color: #ffffff;
     background-color: #81b3d2;
@@ -395,6 +400,9 @@ margin-bottom: 52px;
 
 /*стили каталога*/
 
+.filter-row {
+    min-height: 86px;
+}
 .hotels-filter {
     min-height: 218px;
 }
@@ -403,17 +411,38 @@ margin-bottom: 52px;
     padding: 0;
 }
 .catalog-item {
-    display: flex;    
+    display: flex;
+    align-items: center;
+    min-height: 150px;    
+}
+
+.photo {
+    margin-right: 30px;
+    margin-left: 72px;
+}
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 90px;
+    width: 258px;
+}
+
+.catalog-hotel-type {
+    margin-right: 34px;
 }
 
 .catalog-hotel-price {
     display: flex;
-    flex-direction: column;
-    width: 260px;
-    align-content: flex-end;
 }
 
+.grow {
+    flex-grow: 1;
+}
 
+.catalog-hotel-price a + a {
+    margin-left: 6px;
+}
 /*стили футора*/
 
 .footer {
