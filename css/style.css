@@ -191,11 +191,11 @@ a {
     min-height: 256px;
 }
 
-.text-block span + span {
+/*.text-block span + span {
     margin-top: 5px;
-    /*изменил с 28 т.к. не влезало в div*/
+    изменил с 28 т.к. не влезало в div, закомментил, потому что картинку нельзя завернуть в спан
 }
-
+*/
 .question {
     display: block;
     font-size: 30px;
