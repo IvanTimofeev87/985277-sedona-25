@@ -207,6 +207,13 @@ a {
     margin-top: 56px;   
 }
 
+.map {
+    background-image: url("../img/map.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 594px;
+}
+
 .hotels-search-date-form {
     padding: 56px;
     position: fixed;
