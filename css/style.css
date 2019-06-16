@@ -4,9 +4,9 @@ html {
     font-family: "PT Sans";
 }
 
-* {
+/** {
     outline: 1px solid red;
-}
+}*/
 
 body {
     margin: 0;
@@ -433,9 +433,9 @@ text-align: left;
     min-height: 218px;
 }
 
-.hotels-choice-form div {
+/*.hotels-choice-form div {
     outline: 1px solid blue;
-}
+}*/
 
 .hotels-choice-form {
     display: flex;
