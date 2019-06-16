@@ -402,6 +402,13 @@ margin-bottom: 52px;
 
 /*стили каталога*/
 
+.hotels-filter {
+    background-image: url("../img/catalog-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 562px;
+}    
+    
 .filter-row {
     min-height: 86px;
 }
