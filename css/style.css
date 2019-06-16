@@ -5,9 +5,9 @@ html {
 }
 
 * {
-    outline: 1px solid red
+    outline: 1px solid red;
 }
- 
+
 body {
     margin: 0;
     padding: 0;
@@ -402,19 +402,58 @@ margin-bottom: 52px;
 
 /*стили каталога*/
 
+/*стили формы поиска на странице католога*/
+
+.form-bold {
+font-size: 16px;
+font-weight: 700;
+color: white;
+line-height: 21px;
+text-transform: uppercase;
+text-align: left;
+}
+
+.hotels-filter label {
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    line-height: 21px;
+    text-transform: uppercase;
+    text-align: left;
+    }
+
 .hotels-filter {
     background-image: url("../img/catalog-background.jpg");
     background-position: center;
     background-repeat: no-repeat;
     min-height: 562px;
 }    
-    
-.filter-row {
-    min-height: 86px;
-}
+
 .hotels-filter {
     min-height: 218px;
 }
+
+/*.hotels-choice-form div {
+    outline: 1px solid red;
+}*/
+
+.hotels-choice-form {
+	display: flex;
+}
+.infrastructure,
+.housing {
+	flex-grow: 1;
+}
+.price {
+	flex-grow:7;
+}
+
+/* стили списка отелей*/
+
+.filter-row {
+    min-height: 86px;
+}
+
 
 .catalog-list {
     padding: 0;
