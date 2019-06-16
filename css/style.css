@@ -132,7 +132,8 @@ a {
     text-align: center;    
 }
 
-.regular-text {
+.regular-text,
+.rating-row {
     font-size: 14px;
     font-weight: 400;
     line-height: 26px;
@@ -394,7 +395,8 @@ margin-bottom: 52px;
 
 .check-in-date,
 .check-out-date,
-.cube {
+.cube,
+.rating-row {
     background-color: #f2f2f2; 
 }
 
@@ -413,7 +415,9 @@ margin-bottom: 52px;
 .catalog-item {
     display: flex;
     align-items: center;
-    min-height: 150px;    
+    min-height: 150px;
+    border-top: 1px solid #e5e5e5; 
+    border-bottom: 1px solid #e5e5e5;    
 }
 
 .photo {
@@ -426,6 +430,7 @@ margin-bottom: 52px;
     justify-content: space-between;
     min-height: 90px;
     width: 258px;
+    margin-right: 522px;
 }
 
 .catalog-hotel-type {
@@ -442,6 +447,23 @@ margin-bottom: 52px;
 
 .catalog-hotel-price a + a {
     margin-left: 6px;
+}
+
+.rating {
+    min-height: 90px;
+    width: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.star {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.star img:not(:last-child) {
+    margin-right: 6px;
 }
 /*стили футора*/
 
