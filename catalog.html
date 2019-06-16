@@ -36,22 +36,56 @@
           <form class="hotels-choice-form" action="#" method="POST">
             <div class="infrastructure">
               <span class="form-bold">Инфраструктура:</span>
-              <input type="checkbox" name="pool" id="pool-box" checked>
-              <label for="pool-box">Бассейн</label>
-              <input type="checkbox" name="subscribe" id="subscribe-field" checked>
-              <label for="subscribe-field">Подписать вас на рассылку?</label>    
+              <div>
+                <input type="checkbox" name="pool" id="pool-box" checked>
+                <label for="pool-box">Бассейн</label>
+              </div>
+              <div>
+                <input type="checkbox" name="parking" id="parking-box" checked>
+                <label for="parking-box">Парковка</label>
+              </div>
+              <div>
+                <input type="checkbox" name="wifi" id="wifi-box" checked>
+                <label for="wifi-box">wi-fi</label>
+              </div>  
             </div>
             <div class="housing">
               <span class="form-bold">Тип жилья:</span>
+              <div>
+                <input type="checkbox" name="hotel" id="hotel-box" checked>
+                <label for="hotel-box">Гостиница</label>
+              </div>
+              <div>
+                <input type="checkbox" name="motel" id="motel-box" checked>
+                <label for="motel-box">Мотель</label>
+              </div>
+              <div>
+                <input type="checkbox" name="apartments" id="apartments-box" checked>
+                <label for="apartments-box">Апартаменты</label>
+              </div>  
             </div>
             <div class="price">
               <span class="form-bold">Стоимость в сутки (Р):</span>
+              <div class="slader">
+
+              </div>
             </div> 
           </form>
       </section>
       <section class="catalog">
         <h2 class="visually-hidden">Каталог гостиниц</h2>
-        <div class="filter-row"> 
+        <div class="filter-row">
+          <span class="bold-text filter-span">найдено: 3</span> 
+          <div class="filter-block">
+            <span>Сортировка:</span> 
+            <span>По цене</span> 
+            <span>По типу</span> 
+            <span>По рейтингу</span>  
+          </div>
+          <div >
+              <img src="img/icon-up-dir.svg" width="10" height="10" alt="Переключатель">
+              <img src="img/icon-down-dir.svg" width="10" height="10" alt="Переключатель">
+          </div>
         </div>
         <div class="catalog-item">
             <div class="photo">

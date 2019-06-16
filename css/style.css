@@ -283,7 +283,7 @@ a {
     margin-bottom: 54px;
 }
 
-label {
+.hotels-search-date-form label {
     width: 96px;
 }
 
@@ -303,7 +303,7 @@ label {
     top: calc(50% - 12px);
     right: 8px;
   }
-input {
+.hotels-search-date-form input {
     width: 100%;
     border: none;
     box-sizing: border-box;
@@ -433,28 +433,67 @@ text-align: left;
     min-height: 218px;
 }
 
-/*.hotels-choice-form div {
-    outline: 1px solid red;
-}*/
+.hotels-choice-form div {
+    outline: 1px solid blue;
+}
 
 .hotels-choice-form {
-	display: flex;
+    display: flex;
+    padding-top: 30px;
+    padding-left: 72px;
+    padding-right: 72px;
+    justify-content: space-between;
 }
-.infrastructure,
+.infrastructure {
+    min-height: 156px;
+    width: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.housing {
+    min-height: 156px;
+    width: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 245px;
+}
+.price {
+    min-height: 156px;
+    width: 316px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+/*.infrastructure,
 .housing {
 	flex-grow: 1;
 }
 .price {
 	flex-grow:7;
-}
+}*/
 
 /* стили списка отелей*/
 
 .filter-row {
     min-height: 86px;
+    display: flex;
+    align-items: center;
 }
 
+.filter-block {
+    margin-right: 510px;
+    display: flex;
+    width: 356px;
+    justify-content: space-between;
+}
 
+.filter-span {
+    margin-right: 48px;
+    margin-left: 72px;
+} 
 .catalog-list {
     padding: 0;
 }
