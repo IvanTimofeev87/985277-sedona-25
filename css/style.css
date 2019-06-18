@@ -415,7 +415,8 @@ text-align: left;
 
 .hotels-filter label,
 .slaider-row,
-.slader-button {
+.slader-button,
+.show-button {
     font-size: 14px;
     font-weight: 400;
     color: white;
@@ -479,6 +480,27 @@ text-align: left;
     display: flex;
     justify-content: space-around;
 }
+
+.show-button {
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    background: none;
+    width: 134px;
+    text-align: center;  
+}
+
+.slader-button {
+    text-align: center;
+    width: 100%;
+    border-radius: 2px;
+}
+
+.slaider-row span,
+.show-button {
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
 /*.infrastructure,
 .housing {
 	flex-grow: 1;
