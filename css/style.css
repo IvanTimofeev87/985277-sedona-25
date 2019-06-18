@@ -4,9 +4,9 @@ html {
     font-family: "PT Sans";
 }
 
-/** {
+* {
     outline: 1px solid red;
-}*/
+}*
 
 body {
     margin: 0;
@@ -413,13 +413,19 @@ text-transform: uppercase;
 text-align: left;
 }
 
-.hotels-filter label {
+.hotels-filter label,
+.slaider-row,
+.slader-button {
     font-size: 14px;
     font-weight: 400;
     color: white;
     line-height: 21px;
     text-transform: uppercase;
     text-align: left;
+    }
+
+.scount {
+    width: 100%;
     }
 
 .hotels-filter {
@@ -465,7 +471,13 @@ text-align: left;
     width: 316px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between; 
+}
+
+.slaider-row {
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    display: flex;
+    justify-content: space-around;
 }
 /*.infrastructure,
 .housing {
