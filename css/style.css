@@ -423,11 +423,7 @@ text-align: left;
     line-height: 21px;
     text-transform: uppercase;
     text-align: left;
-    }
-
-.scount {
-    width: 100%;
-    }
+}
 
 .hotels-filter {
     background-image: url("../img/catalog-background.jpg");
@@ -481,12 +477,33 @@ text-align: left;
     justify-content: space-around;
 }
 
+.slaider {
+	width: 316px;
+	display:flex;
+	background: none;
+}
+
+hr {
+    border: none; 
+    height: 3px; 
+   }
+
+.line1 {
+	width: 232px;
+	background-color: white; 
+}
+
+.line2 {
+	width: 44px;
+	background-color: rgba(0, 1, 1, 0.2);
+}
 .show-button {
     border: 1px solid #f2f2f2;
     border-radius: 2px;
     background: none;
     width: 134px;
-    text-align: center;  
+    text-align: center;
+    margin-top: 14px;  
 }
 
 .slader-button {
