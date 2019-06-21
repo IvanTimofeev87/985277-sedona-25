@@ -447,6 +447,27 @@ text-align: left;
     padding-right: 72px;
     justify-content: space-between;
 }
+
+.hotels-choice-form label {
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+  }
+.hotels-choice-form label:before  {
+    content: '';
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-right: 16px;
+    vertical-align: middle;
+    background-image: url("../img/checkbox-off.svg");
+    background-size: contain;
+}
+
+.hotels-choice-form input:checked + label:before {
+    background-image: url("../img/checkbox-on.svg");
+    background-repeat: no-repeat;
+}
 .infrastructure {
     min-height: 156px;
     width: 140px;
