@@ -77,11 +77,12 @@ a {
     text-align: center; 
 }
 
-.navigation-list a:hover {
+.navigation-list a:hover,
+.filter-block span:nth-child(4):hover {
     color:#81b3d2;
 }
 
-.navigation-list a:focus {
+.navigation-list a:active {
     color:rgba(0, 0, 0, 0.3);
 }
 
@@ -367,7 +368,7 @@ margin-bottom: 52px;
     background-color: #604e43; 
 }
 
-.brown-button:focus {
+.brown-button:active {
     background-color: #503e33;
     color: rgba(255, 255, 255, 0.3);
 }
@@ -378,7 +379,7 @@ margin-bottom: 52px;
     background-color: #669ec0; 
 }
 
-.blue-button:focus {
+.blue-button:active {
     background-color:#5496bd;
     color: rgba(255, 255, 255, 0.3);
 }
@@ -398,6 +399,10 @@ margin-bottom: 52px;
 .cube,
 .rating-row {
     background-color: #f2f2f2; 
+}
+.show-button:hover {
+    color: black;
+    background-color: white;
 }
 
 /*стили каталога*/
@@ -516,7 +521,7 @@ hr {
 
 .line2 {
 	width: 44px;
-	background-color: rgba(0, 1, 1, 0.2);
+	background-color: #938482;
 }
 .show-button {
     border: 1px solid #f2f2f2;
@@ -560,6 +565,19 @@ hr {
     display: flex;
     width: 356px;
     justify-content: space-between;
+}
+
+.filter-block span {
+    text-align: left;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.filter-block span:nth-child(1),
+.filter-block span:nth-child(4):active {
+    color: black;
 }
 
 .filter-span {
