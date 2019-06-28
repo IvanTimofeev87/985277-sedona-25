@@ -269,6 +269,19 @@ a {
     text-align: center;
 }
 
+.style-gbb {
+    color: #cacaca;
+}
+
+.style-gbb:hover {
+    color: black;
+}
+
+.style-gbb:active {
+    color: #81b3d2;
+}
+
+
 .row {
     width: 458px;
     display: flex;
@@ -304,6 +317,7 @@ a {
     top: calc(50% - 12px);
     right: 8px;
   }
+
 .hotels-search-date-form input {
     width: 100%;
     border: none;
@@ -311,6 +325,7 @@ a {
     padding-bottom: 14px;
     padding-top: 14px;
 }
+
 .find-button {
     border: none;
     width: 100%;
@@ -584,6 +599,20 @@ hr {
     margin-right: 48px;
     margin-left: 72px;
 } 
+
+.svg-button path{
+    fill:#cacaca;
+}
+
+.svg-button:hover path{
+    fill: black;
+}
+
+.svg-button:active path{
+    fill: #81b3d2;
+}
+
+
 .catalog-list {
     padding: 0;
 }
