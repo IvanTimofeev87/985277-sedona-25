@@ -78,11 +78,13 @@ a {
 }
 
 .navigation-list a:hover,
-.filter-block span:nth-child(4):hover {
+.filter-block span:nth-child(4):hover,
+.сatalog-hotel-name:hover {
     color:#81b3d2;
 }
 
-.navigation-list a:active {
+.navigation-list a:active,
+.сatalog-hotel-name:active {
     color:rgba(0, 0, 0, 0.3);
 }
 
@@ -337,8 +339,7 @@ margin-bottom: 52px;
 }
 .search-paragraph,
 .hotel-price-from,
-.catalog-hotel-type,
-.catalog-hotel-price a {
+.catalog-hotel-type {
     font-size: 14px;
     font-weight: 400;
     color: #333333;
@@ -369,7 +370,8 @@ margin-bottom: 52px;
 
 /* стили наведения и бекграунда*/
 
-.blue-button {
+.blue-button,
+.social-list li {
     color: #ffffff;
     background-color: #81b3d2;
 }
@@ -389,12 +391,13 @@ margin-bottom: 52px;
 }
 
 .blue-button:hover,
-.blue, 
-.social-list li {
+.blue,
+.social-list li:hover {
     background-color: #669ec0; 
 }
 
-.blue-button:active {
+.blue-button:active,
+.social-list li:active {
     background-color:#5496bd;
     color: rgba(255, 255, 255, 0.3);
 }
@@ -436,13 +439,18 @@ text-align: left;
 .hotels-filter label,
 .slaider-row,
 .slader-button,
-.show-button {
+.show-button,
+.catalog-hotel-price a {
     font-size: 14px;
     font-weight: 400;
     color: white;
     line-height: 21px;
     text-transform: uppercase;
     text-align: left;
+}
+
+.catalog-hotel-price a {
+    text-align: center;
 }
 
 .hotels-filter {
@@ -612,7 +620,6 @@ hr {
     fill: #81b3d2;
 }
 
-
 .catalog-list {
     padding: 0;
 }
@@ -698,4 +705,11 @@ hr {
     display: flex;
 }
 
+.style-bbg:hover path{
+    fill:#81b3d2;
+}
+
+.style-bbg:active path{
+    fill:#bdbbbc;
+}
 
