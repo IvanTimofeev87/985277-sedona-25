@@ -320,6 +320,14 @@ a {
     right: 8px;
   }
 
+  .input-wrap:hover:after{
+    background-image: url(../img/calendar2.png); 
+  }
+
+  .input-wrap:active:after{
+    background-image: url(../img/calendar3.png); 
+  }
+
 .hotels-search-date-form input {
     width: 100%;
     border: none;
