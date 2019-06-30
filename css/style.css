@@ -238,6 +238,10 @@ a {
     background-color: #ffffff;
 }
 
+.modal-show {
+    display: block;
+}
+
 .adult {
     margin-right: 40px;
 }
