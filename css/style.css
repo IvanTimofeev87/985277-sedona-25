@@ -705,6 +705,10 @@ hr {
     display: flex;
 }
 
+.social-list li a:active path {
+    fill: #88b6d1;
+}
+
 .style-bbg:hover path{
     fill:#81b3d2;
 }
