@@ -97,7 +97,7 @@
           <a class="button brown-button search-button" href="#">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</a>  
       </div>
       <div class="map">  
-      </div> 
+      </div>
       <form class="hotels-search-date-form visually-hidden" action="#" method="POST">  
         <div class="row">
           <label for="check-in" class="label">ДАТА ЗАЕЗДА: </label>
@@ -135,8 +135,9 @@
         </div>
         <div class="row">
           <button class="button blue-button find-button" type="submit">НАЙТИ</button>
-        </div> 
-      </form>
+        </div>
+        <button class="modal-close" type="button">Закрыть</button> 
+      </form>   
     </main>
     <footer class="footer">
       <div class="footer-hashtag">
@@ -176,11 +177,18 @@
     <script>
       var link = document.querySelector(".search-button");
       var popup = document.querySelector(".hotels-search-date-form")
+      var close = document.querySelector(".modal-close")
 
       link.addEventListener("click", function (evt) {
         evt.preventDefault();
         popup.classList.add("modal-show");
       });
+
+      close.addEventListener("click", function (evt) {
+        evt.preventDefault();
+        popup.classList.remove("modal-show")
+      });
+
     </script>
   </body>
 </html>
