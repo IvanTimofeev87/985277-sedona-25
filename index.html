@@ -102,13 +102,13 @@
         <div class="row">
           <label for="check-in" class="label">ДАТА ЗАЕЗДА: </label>
           <div class="input-wrap">
-            <input type="text" id="check-in" class="check-in-date" name="check-in-date" placeholder="  24 АПРЕЛЯ 2017" required>
+            <input type="text" id="check-in" class="check-in-date" name="check-in-date" placeholder="  24 АПРЕЛЯ 2017"/>
           </div>
         </div>
         <div class="row">
           <label for="check-out" class="label">ДАТА ВЫЕЗДА: </label>
           <div class="input-wrap">
-            <input type="text" id="check-out" class="check-out-date" name="check-out-date" placeholder="  4 ИЮЛЯ 2017" required>
+            <input type="text" id="check-out" class="check-out-date" name="check-out-date" placeholder="  4 ИЮЛЯ 2017"/>
           </div>
         </div>
         <div class="row">
@@ -118,7 +118,7 @@
             </div>
             <div class="input-calc">
               <button class="button cube style-gbb" type="button" name="minus">-</button>
-              <input class="cube" id="amount" type="text" value="1" required/>
+              <input class="cube adult-value" id="amount" type="text"/>
               <button class="button cube style-gbb" type="button" name="plus">+</button>
             </div>
           </div>
@@ -128,7 +128,7 @@
             </div>
             <div class="input-calc">
                 <button class="button cube style-gbb" type="button" name="minus">-</button>
-                <input class="cube" id="amount" type="text" value="1" required/>
+                <input class="cube children-value" id="amount" type="text"/>
                 <button class="button cube style-gbb" type="button" name="plus">+</button>
             </div>
           </div>
@@ -176,12 +176,34 @@
   </div>
     <script>
       var link = document.querySelector(".search-button");
-      var popup = document.querySelector(".hotels-search-date-form")
-      var close = document.querySelector(".modal-close")
+      var popup = document.querySelector(".hotels-search-date-form");
+      var close = document.querySelector(".modal-close");
+      var check_in = popup.querySelector(".check-in-date");
+      var check_out = popup.querySelector(".check-out-date");
+      var adult = popup.querySelector(".adult-value");
+      var children = popup.querySelector(".children-value");
+      var storage1 = "";
+      var storage2 = "";
+
+      var isStorageSupport = true;
+
+      try {
+          storage1 = localStorage.getItem("adult");
+          storage2 = localStorage.getItem("children");
+      } catch (err) {
+        isStorageSupport = false;
+      }
 
       link.addEventListener("click", function (evt) {
         evt.preventDefault();
         popup.classList.add("modal-show");
+        check_in.focus();
+        if (storage1) {
+          adult.value = storage1;
+        }
+        if (storage2) {
+          children.value = storage2;
+        }
       });
 
       close.addEventListener("click", function (evt) {
@@ -189,6 +211,18 @@
         popup.classList.remove("modal-show")
       });
 
+      popup.addEventListener("submit", function (evt) {
+        if (!check_in.value || !check_out.value || !adult.value || !children.value) {
+          evt.preventDefault();
+          console.log("Заполните данные")
+        } else {
+          if (isStorageSupport) {
+          localStorage.setItem("adult", adult.value);
+          localStorage.setItem("children", children.value);
+          }
+        }
+      });
+    
     </script>
   </body>
 </html>
