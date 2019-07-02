@@ -182,10 +182,10 @@
       var check_out = popup.querySelector(".check-out-date");
       var adult = popup.querySelector(".adult-value");
       var children = popup.querySelector(".children-value");
+      
+      var isStorageSupport = true;
       var storage1 = "";
       var storage2 = "";
-
-      var isStorageSupport = true;
 
       try {
           storage1 = localStorage.getItem("adult");
@@ -222,7 +222,15 @@
           }
         }
       });
-    
+      
+      window.addEventListener("keydown", function (evt){
+        if (evt.keyCode === 27) {
+          if (popup.classList.contains("modal-show")) {
+            evt.preventDefault();
+            popup.classList.remove("modal-show")
+          }
+        }
+      })
     </script>
   </body>
 </html>

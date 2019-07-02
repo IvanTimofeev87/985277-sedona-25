@@ -238,8 +238,17 @@ a {
     background-color: #ffffff;
 }
 
+@keyframes show {
+    0% { transform: translate(50px, -2000px);}
+    70% { transform: translate(50px, 30px);}
+    90% { transform: translate(50px, -10px);}
+    100% { transform: translate(50px, 0);}
+}
+
 .modal-show {
     display: block;
+    animation-name: show;
+    animation-duration: 0.8s;
 }
 
 .adult {
