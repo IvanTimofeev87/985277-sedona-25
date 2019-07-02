@@ -240,26 +240,26 @@ a {
 
 @keyframes show {
     0% {
-        transform: translateY(-2000px);
+        transform: translate(-285px, -2000px);
       }
     
     70% {
-        transform: translateY(30px);
+        transform: translate(-285px, 30px);
       }
     
     90% {
-        transform: translateY(-10px);
+        transform: translate(-285px, -10px);
       }
     
     100% {
-        transform: translateY(0);
+        transform: translate(-285px, 0);
       }
 }
 
 .modal-show {
     display: block;
     animation-name: show;
-    animation-duration: 0.8s;
+    animation-duration: 1.2s;
 }
 
 .adult {
