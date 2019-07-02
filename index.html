@@ -208,22 +208,25 @@
 
       close.addEventListener("click", function (evt) {
         evt.preventDefault();
-        popup.classList.remove("modal-show")
+        popup.classList.remove("modal-show");
+        popup.classList.remove("modal-error");
       });
 
       popup.addEventListener("submit", function (evt) {
         if (!check_in.value || !check_out.value || !adult.value || !children.value) {
           evt.preventDefault();
-          popup.classList.add("modal-error")
+          popup.classList.remove("modal-error");
+          popup.offsetWidth = popup.offsetWidth;
+          popup.classList.add("modal-error");
         } else {
           if (isStorageSupport) {
-          localStorage.setItem("adult", adult.value);
-          localStorage.setItem("children", children.value);
+            localStorage.setItem("adult", adult.value);
+            localStorage.setItem("children", children.value);
           }
         }
       });
       
-      window.addEventListener("keydown", function (evt){
+      window.addEventListener("keydown", function (evt) {
         if (evt.keyCode === 27) {
           if (popup.classList.contains("modal-show")) {
             evt.preventDefault();
