@@ -214,7 +214,7 @@
       popup.addEventListener("submit", function (evt) {
         if (!check_in.value || !check_out.value || !adult.value || !children.value) {
           evt.preventDefault();
-          console.log("Заполните данные")
+          popup.classList.add("modal-error")
         } else {
           if (isStorageSupport) {
           localStorage.setItem("adult", adult.value);
@@ -227,7 +227,8 @@
         if (evt.keyCode === 27) {
           if (popup.classList.contains("modal-show")) {
             evt.preventDefault();
-            popup.classList.remove("modal-show")
+            popup.classList.remove("modal-show");
+            popup.classList.remove("modal-error");
           }
         }
       })
