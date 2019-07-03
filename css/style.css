@@ -106,13 +106,14 @@ a {
 
 .welcome-text {
     display: block;
-    padding-top: 98px;
-    padding-left: 380px;
+    padding-top: 76px;
+    padding-left: 370px;
 }
 
 .under-welcome {
     display: block;
     padding: 0;
+    padding-top: 22px;
 }
 
 .slogan,
@@ -154,9 +155,11 @@ a {
     line-height: 26px;
     text-transform: uppercase;
     text-align: center;
+    margin-bottom: 50px;
 }
 
-.text-block {
+.text-block,
+.text-block-2 {
     flex-grow:1;
     display: flex;
     align-items: center;
@@ -167,11 +170,25 @@ a {
     margin-bottom: 64px;
 }
 
+.text-block-2 {
+    margin-top: 56px;
+    margin-bottom: 86px;
+}
+
+.text-block-2 .bold-text {
+    padding-top: 28px;
+}
+
 .image-block1,
 .image-block2{
     flex-grow: 2;
     width: 800px;
     margin: 0;
+}
+
+.slogan {
+    margin-top: 60px;
+    margin-bottom: 28px;
 }
 
 .icon {
