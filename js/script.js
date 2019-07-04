@@ -1,4 +1,4 @@
-var link = document.querySelector(".search-button");
+/*var link = document.querySelector(".search-button");
 var popup = document.querySelector(".hotels-search-date-form");
 var close = document.querySelector(".modal-close");
 var check_in = popup.querySelector(".check-in-date");
@@ -56,5 +56,20 @@ window.addEventListener("keydown", function (evt) {
       popup.classList.remove("modal-show");
       popup.classList.remove("modal-error");
     }
+  }
+})
+*/
+
+var link = document.querySelector(".search-button");
+var popup = document.querySelector(".hotels-search-date-form");
+
+link.addEventListener("click", function (evt) {
+  evt.preventDefault();
+  if (popup.classList.contains("modal-open") && popup.classList.contains("modal-show")) {
+    popup.classList.add("visually-hidden");
+    popup.classList.remove("modal-show");
+  }
+  else {
+    popup.classList.add("modal-show");
   }
 })
