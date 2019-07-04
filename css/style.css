@@ -260,7 +260,7 @@ a {
 /* стили модального окна*/
 
 .hotels-search-date-form {
-    padding: 56px;
+    padding: 38px 56px 56px 56px;
     position: fixed;
     left: 50%;
     top: 50%;
@@ -398,7 +398,7 @@ a {
 .find-button {
     border: none;
     width: 100%;
-    padding: 22px 196px;
+    padding: 16px 196px;
 }
 
 .search-paragraph {
@@ -800,6 +800,10 @@ hr {
 .footer-html-academy {
     display: flex;
     align-items: center;
+}
+
+.footer-hashtag {
+    margin-left: 58px;
 }
 
 .website {
