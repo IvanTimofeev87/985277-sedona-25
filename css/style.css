@@ -251,6 +251,8 @@ a {
     background-position: top center;
     background-repeat: no-repeat;
     height: 594px;
+    display: flex;
+    align-items: flex-end;
 }
 
 /* стили модального окна*/
@@ -785,6 +787,12 @@ hr {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background: white;
+   
+}
+
+.footer-main {
+    background: rgba(255,255,255, 0.7);
 }
 
 .footer-social {
