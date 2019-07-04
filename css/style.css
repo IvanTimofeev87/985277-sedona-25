@@ -797,6 +797,14 @@ hr {
     background: rgba(255,255,255, 0.7);
 }
 
+.footer-html-academy {
+    display: flex;
+    align-items: center;
+}
+
+.website {
+    margin-right: 8px;
+}
 .footer-social {
     width: 150px;
 }
