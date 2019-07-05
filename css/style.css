@@ -76,7 +76,6 @@ a {
 
 .navigation-list a {
     color: black;
-    text-align: center;
 }
 
 .navigation-list a:hover,
@@ -88,6 +87,16 @@ a {
 .navigation-list a:active,
 .сatalog-hotel-name:active {
     color: rgba(0, 0, 0, 0.3);
+}
+
+.navigation-list li:nth-child(1),
+.navigation-list li:nth-child(2) {
+    text-align: left;
+}
+
+.navigation-list li:nth-child(3),
+.navigation-list li:nth-child(4) {
+    text-align: right;
 }
 
 .navigation-list li {
