@@ -67,29 +67,27 @@ var check_out = popup.querySelector(".check-out-date");
 var adult = popup.querySelector(".adult-value");
 var children = popup.querySelector(".children-value");
 
-link.addEventListener("click", function (evt) {
-  evt.preventDefault();
-  if (popup.classList.contains("modal-open") && popup.classList.contains("modal-show")) {
-    popup.classList.add("visually-hidden");
-    popup.classList.remove("modal-show");
-    popup.classList.remove("modal-error");
-  }
-  else if (popup.classList.contains("first-click")) {
-    popup.classList.add("visually-hidden")
-    popup.classList.remove("modal-show");
-    popup.classList.remove("modal-error");
-    popup.classList.remove("first-click");
-  }
-  else {
-    popup.classList.add("modal-show");
-  }
+link.addEventListener("click", function(evt) {
+    evt.preventDefault();
+    if (popup.classList.contains("modal-open") && popup.classList.contains("modal-show")) {
+        popup.classList.add("visually-hidden");
+        popup.classList.remove("modal-show");
+        popup.classList.remove("modal-error");
+    } else if (popup.classList.contains("first-click")) {
+        popup.classList.add("visually-hidden")
+        popup.classList.remove("modal-show");
+        popup.classList.remove("modal-error");
+        popup.classList.remove("first-click");
+    } else {
+        popup.classList.add("modal-show");
+    }
 })
 
-popup.addEventListener("submit", function (evt) {
-  if (!check_in.value || !check_out.value || !adult.value || !children.value) {
-    evt.preventDefault();
-    popup.classList.remove("modal-error");
-    popup.offsetWidth = popup.offsetWidth;
-    popup.classList.add("modal-error");
-  }
+popup.addEventListener("submit", function(evt) {
+    if (!check_in.value || !check_out.value || !adult.value || !children.value) {
+        evt.preventDefault();
+        popup.classList.remove("modal-error");
+        popup.offsetWidth = popup.offsetWidth;
+        popup.classList.add("modal-error");
+    }
 });
