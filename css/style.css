@@ -279,10 +279,10 @@ a {
 /* стили модального окна*/
 
 .hotels-search-date-form {
-    padding: 38px 56px 56px 56px;
-    position: fixed;
+    padding: 38px 56px 54px 54px;
+    position: absolute;
     left: 50%;
-    top: 50%;
+    top: 326%;
     transform: translate(-50%, -50%);
     background-color: #ffffff;
 }
@@ -461,6 +461,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
 
 .search-button {

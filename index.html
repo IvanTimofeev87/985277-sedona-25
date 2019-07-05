@@ -97,6 +97,45 @@
             <p class="search-paragraph">Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в седоне</p>
             <div class="search-button-div">
                 <a class="button brown-button search-button" href="#">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</a>
+                <form class="hotels-search-date-form modal-open first-click" action="#" method="POST">
+                    <div class="row">
+                        <label for="check-in" class="label">ДАТА ЗАЕЗДА: </label>
+                        <div class="input-wrap">
+                            <input type="text" id="check-in" class="check-in-date" name="check-in-date" placeholder="  24 АПРЕЛЯ 2017" />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <label for="check-out" class="label">ДАТА ВЫЕЗДА: </label>
+                        <div class="input-wrap">
+                            <input type="text" id="check-out" class="check-out-date" name="check-out-date" placeholder="  4 ИЮЛЯ 2017" />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="cell-calc">
+                            <div class="label-calc adult">
+                                <label for="amount-1">ВЗРОСЛЫЕ: </label>
+                            </div>
+                            <div class="input-calc">
+                                <button class="button cube style-gbb" type="button" name="minus">-</button>
+                                <input class="cube adult-value" id="amount-1" type="text" />
+                                <button class="button cube style-gbb" type="button" name="plus">+</button>
+                            </div>
+                        </div>
+                        <div class="cell-calc">
+                            <div class="label-calc children">
+                                <label for="amount-2">ДЕТИ: </label>
+                            </div>
+                            <div class="input-calc">
+                                <button class="button cube style-gbb" type="button" name="minus">-</button>
+                                <input class="cube children-value" id="amount-2" type="text" />
+                                <button class="button cube style-gbb" type="button" name="plus">+</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <button class="button blue-button find-button" type="submit">НАЙТИ</button>
+                    </div>
+                </form>
             </div>
             <div class="map">
                 <footer class="footer footer-main">
@@ -134,45 +173,6 @@
                     </div>
                 </footer>
             </div>
-            <form class="hotels-search-date-form modal-open first-click" action="#" method="POST">
-                <div class="row">
-                    <label for="check-in" class="label">ДАТА ЗАЕЗДА: </label>
-                    <div class="input-wrap">
-                        <input type="text" id="check-in" class="check-in-date" name="check-in-date" placeholder="  24 АПРЕЛЯ 2017" />
-                    </div>
-                </div>
-                <div class="row">
-                    <label for="check-out" class="label">ДАТА ВЫЕЗДА: </label>
-                    <div class="input-wrap">
-                        <input type="text" id="check-out" class="check-out-date" name="check-out-date" placeholder="  4 ИЮЛЯ 2017" />
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="cell-calc">
-                        <div class="label-calc adult">
-                            <label for="amount-1">ВЗРОСЛЫЕ: </label>
-                        </div>
-                        <div class="input-calc">
-                            <button class="button cube style-gbb" type="button" name="minus">-</button>
-                            <input class="cube adult-value" id="amount-1" type="text" />
-                            <button class="button cube style-gbb" type="button" name="plus">+</button>
-                        </div>
-                    </div>
-                    <div class="cell-calc">
-                        <div class="label-calc children">
-                            <label for="amount-2">ДЕТИ: </label>
-                        </div>
-                        <div class="input-calc">
-                            <button class="button cube style-gbb" type="button" name="minus">-</button>
-                            <input class="cube children-value" id="amount-2" type="text" />
-                            <button class="button cube style-gbb" type="button" name="plus">+</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <button class="button blue-button find-button" type="submit">НАЙТИ</button>
-                </div>
-            </form>
         </main>
     </div>
     <script src="js/script.js"></script>
