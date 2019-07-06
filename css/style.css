@@ -144,17 +144,24 @@ a {
 .bold-text {
     font-size: 21px;
     font-weight: 700;
-    line-height: 26px;
+    line-height: 21px;
     text-transform: uppercase;
     text-align: center;
 }
 
+.bold-text2 {
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    text-align: left;
+}
+
 .regular-text,
-.rating-row,
-.website {
+.rating-row {
     font-size: 14px;
     font-weight: 400;
-    line-height: 26px;
+    line-height: 21px;
     text-transform: uppercase;
     text-align: center;
 }
@@ -247,13 +254,6 @@ a {
     display: flex;
     min-height: 256px;
 }
-
-
-/*.text-block span + span {
-    margin-top: 5px;
-    изменил с 28 т.к. не влезало в div, закомментил, потому что картинку нельзя завернуть в спан
-}
-*/
 
 .question {
     display: block;
@@ -559,6 +559,7 @@ a {
 
 .catalog-hotel-price a {
     text-align: center;
+    font-weight: 700;
 }
 
 .hotels-filter {
@@ -711,11 +712,22 @@ hr {
     font-weight: 400;
     color: rgba(0, 0, 0, 0.3);
     cursor: pointer;
+    text-transform: uppercase;
+    line-height: 18px;
 }
 
 .filter-block span:nth-child(1),
 .filter-block span:nth-child(4):active {
     color: black;
+}
+
+.filter-block span:nth-child(2) {
+    color: #81b3d2;
+}
+
+.filter-block span:nth-child(3),
+.filter-block span:nth-child(4) {
+    border-bottom: 1px dotted #81b3d2;
 }
 
 .filter-span {
@@ -823,6 +835,11 @@ hr {
 
 .website {
     margin-right: 8px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 .footer-social {
