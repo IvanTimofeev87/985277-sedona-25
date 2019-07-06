@@ -813,10 +813,12 @@ hr {
 .footer-html-academy {
     display: flex;
     align-items: center;
+    padding-left: 30px;
 }
 
 .footer-hashtag {
-    margin-left: 58px;
+    padding-left: 30px;
+    padding-bottom: 4px;
 }
 
 .website {
@@ -825,6 +827,8 @@ hr {
 
 .footer-social {
     width: 150px;
+    padding-left: 58px;
+    padding-bottom: 4px;
 }
 
 .social-list {
