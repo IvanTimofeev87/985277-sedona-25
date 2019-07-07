@@ -220,6 +220,9 @@ a {
 .slogan {
     margin-top: 60px;
     margin-bottom: 28px;
+    width: 440px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .icon {
@@ -253,6 +256,22 @@ a {
 .advantage-block {
     display: flex;
     min-height: 256px;
+}
+
+.advantage-width1 {
+    width: 300px;
+}
+
+.advantage-width2 {
+    width: 310px;
+}
+
+.advantage-width3 {
+    width: 258px;
+}
+
+.advantage-width4 {
+    width: 280px;
 }
 
 .question {
