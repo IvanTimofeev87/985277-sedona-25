@@ -246,7 +246,7 @@ a {
     background-image: url("../img/advantage-image2.jpg");
     background-position: top center;
     background-repeat: no-repeat;
-    min-height: 256px;
+    height: 256px;
 }
 
 .gray {
@@ -255,7 +255,7 @@ a {
 
 .advantage-block {
     display: flex;
-    min-height: 256px;
+    height: 256px;
 }
 
 .advantage-width1 {
@@ -298,7 +298,7 @@ a {
 /* стили модального окна*/
 
 .hotels-search-date-form {
-    padding: 50px 56px 54px 54px;
+    padding: 56px 56px 58px 54px;
     position: absolute;
     left: 50%;
     top: 326%;
@@ -596,11 +596,11 @@ a {
     background-image: url("../img/catalog-background.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 562px;
+    height: 562px;
 }
 
 .hotels-filter {
-    min-height: 218px;
+    height: 218px;
 }
 
 
@@ -639,7 +639,7 @@ a {
 }
 
 .infrastructure {
-    min-height: 156px;
+    height: 156px;
     width: 140px;
     display: flex;
     flex-direction: column;
@@ -647,7 +647,7 @@ a {
 }
 
 .housing {
-    min-height: 156px;
+    height: 156px;
     width: 140px;
     display: flex;
     flex-direction: column;
@@ -656,7 +656,7 @@ a {
 }
 
 .price {
-    min-height: 156px;
+    height: 156px;
     width: 316px;
     display: flex;
     flex-direction: column;
@@ -729,7 +729,7 @@ hr {
 /* стили списка отелей*/
 
 .filter-row {
-    min-height: 86px;
+    height: 86px;
     display: flex;
     align-items: center;
 }
@@ -803,7 +803,7 @@ hr {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    min-height: 90px;
+    height: 90px;
     width: 258px;
     margin-right: 522px;
 }
@@ -825,7 +825,7 @@ hr {
 }
 
 .rating {
-    min-height: 90px;
+    height: 90px;
     width: 110px;
     display: flex;
     flex-direction: column;
