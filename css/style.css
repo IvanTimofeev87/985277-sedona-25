@@ -198,11 +198,11 @@ a {
 }
 
 .text-block-2 .bold-text {
-    padding-top: 24px;
+    padding-top: 30px;
 }
 
 .text-block-2 .regular-text {
-    margin-top: 20px;
+    margin-top: 22px;
 }
 
 .text-block span:nth-child(2) {
@@ -228,7 +228,7 @@ a {
 .icon {
     width: 74px;
     height: 74px;
-    margin-top: 60px;
+    margin-top: 52px;
 }
 
 .text-block-2 .advantage-width1 {
@@ -310,7 +310,7 @@ a {
 /* стили модального окна*/
 
 .hotels-search-date-form {
-    padding: 56px 56px 48px 54px;
+    padding: 54px 56px 54px 54px;
     position: absolute;
     left: 50%;
     top: 326%;
@@ -480,7 +480,8 @@ a {
 }
 
 .search-paragraph {
-    margin-bottom: 52px;
+    margin-bottom: 50px;
+    margin-top: 20px;
 }
 
 .search-paragraph,
