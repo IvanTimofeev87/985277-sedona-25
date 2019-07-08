@@ -298,7 +298,7 @@ a {
 /* стили модального окна*/
 
 .hotels-search-date-form {
-    padding: 56px 56px 58px 54px;
+    padding: 50px 56px 50px 54px;
     position: absolute;
     left: 50%;
     top: 326%;
@@ -689,7 +689,7 @@ hr {
 
 .thumb1,
 .thumb2 {
-    cursor: grab;
+    cursor: pointer;
 }
 
 .line1 {
