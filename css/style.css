@@ -420,6 +420,7 @@ a {
 .input-wrap {
     width: 346px;
     position: relative;
+    display: flex;
 }
 
 .input-wrap:after {
@@ -442,12 +443,18 @@ a {
     background-image: url(../img/calendar3.png);
 }
 
-.hotels-search-date-form input {
+.hotels-search-date-form textarea {
     width: 100%;
     border: none;
     box-sizing: border-box;
     padding-bottom: 6px;
     padding-top: 6px;
+}
+
+.check-in-date,
+.check-out-date {
+    height: 38px;
+    resize: none;
 }
 
 .find-button {
