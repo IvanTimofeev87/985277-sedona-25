@@ -758,8 +758,12 @@ hr {
     align-items: center;
 }
 
+.triangle1 {
+    margin-right: 8px;
+}
+
 .filter-block {
-    margin-right: 510px;
+    margin-right: 500px;
     display: flex;
     width: 356px;
     justify-content: space-between;
@@ -827,7 +831,7 @@ hr {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 90px;
+    height: 98px;
     width: 258px;
     margin-right: 522px;
 }
@@ -838,6 +842,7 @@ hr {
 
 .catalog-hotel-price {
     display: flex;
+    margin-bottom: 6px;
 }
 
 .grow {
@@ -854,8 +859,12 @@ hr {
     margin-left: 6px;
 }
 
+.rating-row {
+    margin-bottom: 8px;
+}
+
 .rating {
-    height: 90px;
+    height: 98px;
     width: 110px;
     display: flex;
     flex-direction: column;
