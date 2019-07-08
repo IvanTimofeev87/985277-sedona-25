@@ -497,6 +497,7 @@ a {
 .hotel-price-from,
 .catalog-hotel-type {
     line-height: 21px;
+    text-align: left;
 }
 
 .search-button-div {
@@ -613,6 +614,7 @@ a {
 .catalog-hotel-price a {
     text-align: center;
     font-weight: 700;
+    padding-top: 2px;
 }
 
 .hotels-filter {
@@ -675,7 +677,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-right: 245px;
+    margin-right: 232px;
 }
 
 .price {
@@ -690,6 +692,8 @@ a {
     border-radius: 2px;
     display: flex;
     justify-content: space-around;
+    margin-bottom: 14px;
+    margin-top: 8px;
 }
 
 .slaider {
@@ -724,7 +728,8 @@ hr {
     background: none;
     width: 134px;
     text-align: center;
-    margin-top: 14px;
+    margin-top: 18px;
+    margin-right: 14px;
 }
 
 .slader-button {
@@ -737,6 +742,7 @@ hr {
 .show-button {
     padding-top: 6px;
     padding-bottom: 6px;
+    padding-left: 14px;
 }
 
 
@@ -832,7 +838,7 @@ hr {
 }
 
 .catalog-hotel-type {
-    margin-right: 34px;
+    width: 116px;
 }
 
 .catalog-hotel-price {
@@ -841,6 +847,12 @@ hr {
 
 .grow {
     flex-grow: 1;
+    height: 24px;
+}
+
+.catalog-hotel-row {
+    margin-bottom: 12px;
+    display: flex;
 }
 
 .catalog-hotel-price a+a {
