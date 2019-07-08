@@ -202,7 +202,7 @@ a {
 }
 
 .text-block-2 .regular-text {
-    margin-top: 20px;
+    margin-top: 18px;
 }
 
 .text-block span:nth-child(2) {
@@ -228,14 +228,10 @@ a {
 .icon {
     width: 74px;
     height: 74px;
-    margin-top: 60px;
-}
-
-.text-block-2 .advantage-width1 {
-    margin-bottom: 60px;
 }
 
 .advantage-block p {
+    /*margin: 0;*/
     text-align: center;
 }
 
@@ -260,10 +256,6 @@ a {
 .advantage-block {
     display: flex;
     height: 256px;
-}
-
-.advantage-height1 {
-    height: 330px;
 }
 
 .advantage-width1 {
@@ -294,7 +286,7 @@ a {
     line-height: 36px;
     text-transform: uppercase;
     text-align: center;
-    margin-top: 54px;
+    margin-top: 56px;
 }
 
 .map {
@@ -310,7 +302,7 @@ a {
 /* стили модального окна*/
 
 .hotels-search-date-form {
-    padding: 56px 56px 48px 54px;
+    padding: 52px 56px 52px 54px;
     position: absolute;
     left: 50%;
     top: 326%;
@@ -459,7 +451,7 @@ a {
     background-image: url(../img/calendar3.png);
 }
 
-.hotels-search-date-form input {
+.hotels-search-date-form textarea {
     width: 100%;
     border: none;
     box-sizing: border-box;
