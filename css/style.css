@@ -924,12 +924,13 @@ hr {
 }
 
 .website {
-    margin-right: 8px;
+    margin-right: 4px;
     font-size: 14px;
     font-weight: 400;
     line-height: 26px;
     text-transform: uppercase;
     text-align: center;
+    padding-left: 8px;
 }
 
 .footer-social {
@@ -961,4 +962,8 @@ hr {
 
 .style-bbg:active path {
     fill: #bdbbbc;
+}
+
+.style-bbg {
+    padding-top: 2px;
 }
