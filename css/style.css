@@ -111,7 +111,7 @@ a {
 
 .main-screen {
     background-image: url("../img/main-background-photo.jpg");
-    background-position: top center;
+    background-position-y: 29%;
     background-repeat: no-repeat;
     height: 509px;
 }
