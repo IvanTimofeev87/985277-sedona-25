@@ -198,7 +198,7 @@ a {
 }
 
 .text-block-2 .bold-text {
-    padding-top: 30px;
+    padding-top: 160px;
 }
 
 .text-block-2 .regular-text {
@@ -225,8 +225,22 @@ a {
     margin-right: auto;
 }
 
-.icon {
-    margin-top: 52px;
+.icon1 {
+    background-image: url("../img/icon-1.svg");
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.icon3 {
+    background-image: url("../img/icon-3.svg");
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.icon2 {
+    background-image: url("../img/icon-2.svg");
+    background-position: top center;
+    background-repeat: no-repeat;
 }
 
 .text-block-2 .advantage-width1 {
