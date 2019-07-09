@@ -653,17 +653,19 @@ a {
 .hotels-choice-form label:before {
     content: '';
     display: inline-block;
-    width: 24px;
+    width: 26px;
     height: 24px;
     margin-right: 16px;
     vertical-align: middle;
     background-image: url("../img/checkbox-off.svg");
     background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .hotels-choice-form input:checked+label:before {
     background-image: url("../img/checkbox-on.svg");
     background-repeat: no-repeat;
+    background-size: 28px 24px;
 }
 
 .infrastructure {
@@ -672,6 +674,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-left: -2px;
 }
 
 .housing {
@@ -681,6 +684,7 @@ a {
     flex-direction: column;
     justify-content: space-between;
     margin-right: 232px;
+    margin-top: 2px;
 }
 
 .price {
