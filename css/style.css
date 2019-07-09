@@ -188,27 +188,31 @@ a {
     flex-direction: column;
     justify-content: space-around;
     width: 400px;
-    margin-top: 42px;
-    margin-bottom: 56px;
+    margin-top: 38px;
+    margin-bottom: 52px;
 }
 
 .text-block-2 {
     margin-top: 60px;
-    margin-bottom: 76px;
+    margin-bottom: 0px;
+    height: 184px;
 }
 
 .text-block-2 .bold-text {
-    padding-top: 160px;
+    display: block;
+    margin-top: 104px;
+    margin-bottom: 26px;
 }
 
-.text-block-2 .regular-text {
+
+/*.text-block-2 .regular-text {
     margin-top: 22px;
 }
 
 .text-block span:nth-child(2) {
     padding-bottom: 10px;
     padding-top: 18px;
-}
+}*/
 
 .image-block1,
 .image-block2 {
@@ -243,9 +247,10 @@ a {
     background-repeat: no-repeat;
 }
 
-.text-block-2 .advantage-width1 {
+
+/*.text-block-2 .advantage-width1 {
     margin-bottom: 60px;
-}
+}*/
 
 .advantage-block p {
     text-align: center;
@@ -306,7 +311,7 @@ a {
     line-height: 36px;
     text-transform: uppercase;
     text-align: center;
-    margin-top: 54px;
+    margin-top: 52px;
 }
 
 .map {
@@ -921,6 +926,7 @@ hr {
 
 .footer-main {
     background: rgba(255, 255, 255, 0.7);
+    padding-bottom: 4px;
 }
 
 .footer-html-academy {
