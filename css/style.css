@@ -64,6 +64,32 @@ a {
     margin: 0;
 }
 
+.nav-element2 {
+    padding-left: 4px;
+}
+
+.nav-element2-c {
+    padding-left: 6px;
+}
+
+.nav-element3 {
+    padding-left: 2px;
+    padding-bottom: 2px;
+}
+
+.nav-element3-c {
+    padding-left: 4px;
+    padding-bottom: 2px;
+}
+
+.nav-element4 {
+    padding-left: 14px;
+}
+
+.nav-element4-c {
+    padding-left: 16px;
+}
+
 .header-logo {
     position: absolute;
     display: block;
@@ -811,6 +837,7 @@ hr {
 
 .filter-block span:nth-child(2) {
     color: #81b3d2;
+    padding-left: 4px;
 }
 
 .filter-block span:nth-child(3),
@@ -885,7 +912,8 @@ hr {
 }
 
 .rating-row {
-    margin-bottom: 8px;
+    margin-bottom: 10px;
+    padding-left: 4px;
 }
 
 .rating {
@@ -953,6 +981,10 @@ hr {
 
 .footer-social {
     width: 150px;
+}
+
+.social-c {
+    padding-bottom: 6px;
 }
 
 .social-list {
